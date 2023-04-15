@@ -16,6 +16,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--color-for-theme-dark);
 }
 /* Header */
 .menu-link {           
@@ -28,9 +30,11 @@ body {
 .menu-link:focus {
 color: var(--accent-color);
 }
+.address {
+    font-style: normal;
+}
 .nav-link-contacts {           
-        font-weight: 400;
-        font-style: normal;
+        font-weight: 400;        
         line-height: 1.5;           
         letter-spacing: 0.02em;    
         color: var(--text-color);
@@ -40,10 +44,10 @@ color: var(--accent-color);
     color: #404BBF;
 }
 .logo {
-    font-family: 'Raleway';        
+        font-family: 'Raleway', sans-serif;        
         font-weight: 800;
         font-size: 18px;
-        line-height: calc(21/18);          
+        line-height: 1.17;         
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
@@ -70,6 +74,7 @@ color: var(--light-mode);
         color: var(--color-for-theme-dark);
 }
 .modal-btn {
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;     
@@ -91,14 +96,14 @@ color: var(--light-mode);
 .feacher {
     font-weight: 500;
     font-size: 20px;
-    line-height: calc(24/20);   
+    line-height: 1.2;   
     letter-spacing: 0.02em;
     color: var(--main-color);
 }
 .feacher-discr {
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(24/16);    
+    line-height: 1.5;    
     letter-spacing: 0.02em;
     color: var(--text-color);    
 }
@@ -106,7 +111,7 @@ color: var(--light-mode);
 .work-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: calc(40/36);           
+        line-height: 1.1;           
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -123,7 +128,7 @@ color: var(--light-mode);
         align-items: center;
         padding: 0px 0px 32px;
         gap: 32px;
-        background: #FFFFFF;
+        background:var(--color-for-theme-dark);
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
 }
@@ -135,7 +140,7 @@ color: var(--light-mode);
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: calc(24/16);      
+        line-height: 1.5;      
         letter-spacing: 0.02em;
         color: var(--light-mode);
 }
