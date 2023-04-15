@@ -1,0 +1,184 @@
+:root {
+    --accent-color: #404BBF;
+    --main-color: #2E2F42;
+    --primery-brend: #4D5AE5;
+    --text-color: #434455;
+    --color-for-theme-dark: #FFFFFF;
+    --light-mode: #F4F4FD;
+    --accent-button: #E7E9FC;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+/* Header */
+.menu-link {           
+        font-weight: 500;        
+        line-height: 1.5;
+        letter-spacing: 0.02em;       
+        color: var(--main-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+color: var(--accent-color);
+}
+.nav-link-contacts {           
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.5;           
+        letter-spacing: 0.02em;    
+        color: var(--text-color);
+}
+.nav-link-contacts:hover,
+.nav-link-contacts:focus {
+    color: #404BBF;
+}
+.logo {
+    font-family: 'Raleway';        
+        font-weight: 800;
+        font-size: 18px;
+        line-height: calc(21/18);          
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--primery-brend);
+}
+.logo-part {
+    color: var(--main-color);
+}
+.logo-part-dark {
+color: var(--light-mode);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--main-color);
+}
+.hero-title {    
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;    
+        text-align: center;
+        letter-spacing: 0.02em;     
+        color: var(--color-for-theme-dark);
+}
+.modal-btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;     
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: var(--color-for-theme-dark);
+        background: var(--primery-brend);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.feacher {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);   
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.feacher-discr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24/16);    
+    letter-spacing: 0.02em;
+    color: var(--text-color);    
+}
+/* What are we doing */
+.work-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: calc(40/36);           
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--main-color);
+}
+/* Our team */
+.our-team {
+    background-color: var(--light-mode);
+}
+.team-cards {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 32px;
+        gap: 32px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+}
+/* Footer */
+.footer {
+    background-color: var(--main-color);
+}
+.footer-descr {    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(24/16);      
+        letter-spacing: 0.02em;
+        color: var(--light-mode);
+}
+/* Button */
+.button {
+    background: var(--light-mode);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: var(--primery-brend);
+    font-family: inherit;
+}
+.button:hover,
+.button:focus {
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: var(--color-for-theme-dark)
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* Portfolio */
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.subtitle-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;   
+    letter-spacing: 0.02em;
+    color:var(--text-color);
+}
