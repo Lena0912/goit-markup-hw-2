@@ -88,6 +88,7 @@ color: var(--light-mode);
     background: var(--accent-color);  
 }
 .feacher {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;   
     letter-spacing: 0.02em;
@@ -130,6 +131,7 @@ color: var(--light-mode);
 }
 /* Button */
 .button {
+    font-weight: 500;
     background: var(--light-mode);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
