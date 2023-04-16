@@ -47,9 +47,7 @@ color: var(--accent-color);
         font-family: 'Raleway', sans-serif;        
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.17;         
-        display: flex;
-        align-items: center;
+        line-height: 1.17;       
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--primery-brend);
@@ -77,9 +75,7 @@ color: var(--light-mode);
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.5;     
-        display: flex;
-        align-items: center;
+        line-height: 1.5;  
         letter-spacing: 0.04em;
         color: var(--color-for-theme-dark);
         background: var(--primery-brend);
@@ -89,19 +85,15 @@ color: var(--light-mode);
 }
 .modal-btn:hover,
 .modal-btn:focus {
-    background: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    background: var(--accent-color);  
 }
 .feacher {
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;   
     letter-spacing: 0.02em;
     color: var(--main-color);
 }
 .feacher-discr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;    
     letter-spacing: 0.02em;
@@ -111,7 +103,7 @@ color: var(--light-mode);
 .work-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;           
+        line-height: 1.11;           
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -122,12 +114,6 @@ color: var(--light-mode);
     background-color: var(--light-mode);
 }
 .team-cards {
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 0px 32px;
-        gap: 32px;
         background:var(--color-for-theme-dark);
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
@@ -137,8 +123,6 @@ color: var(--light-mode);
     background-color: var(--main-color);
 }
 .footer-descr {    
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;      
         letter-spacing: 0.02em;
@@ -152,7 +136,6 @@ color: var(--light-mode);
     color: var(--primery-brend);
     font-family: inherit;
     cursor: pointer;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -161,7 +144,6 @@ color: var(--light-mode);
 .button:focus {
     background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
     color: var(--color-for-theme-dark)
 }
 .visually-hidden {
